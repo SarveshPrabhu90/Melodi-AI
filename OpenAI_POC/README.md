@@ -1,8 +1,18 @@
 # OpenAI API Quickstart - Python example app
 
-This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. Check out the tutorial or follow the instructions below to get set up.
+This repository contains the POC for OpenAI models.
 
-## Setup
+1. Text-davinci-003
+2. Text-babbage-001
+
+There are three Python applications used in this POC.
+1. App.py which uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. Please find the instructions below to setup the [Flask] workflow. 
+
+2. Text-Davinci-003_Chatbot.py - An interactive Chatbot Python application that uses Text-davinci-003 model. 
+
+3. BabbageModel_Chatbot.py - An interactive Chatbot Python application that uses Text-babbage-001 model. 
+
+## Setup Flask workflow
 
 1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/)
 
@@ -41,4 +51,22 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
    $ flask run
    ```
 
-You should now be able to access the app at [http://localhost:5000](http://localhost:5000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
+Access the app at [http://localhost:5000](http://localhost:5000).
+
+
+## Steps to Execute Davinci-003 & Babbage-001 Models 
+
+Navigate to the Project folder
+
+  ```bash
+   cd C:\Users\prabh\OneDrive\Documents\OpenAI_POC
+
+   pip install openai
+   python.exe -m pip install --upgrade pip
+
+   python BabbageModel_Chatbot.py
+   ```
+
+
+
+
