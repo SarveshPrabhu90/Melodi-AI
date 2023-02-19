@@ -1,6 +1,6 @@
-# OpenAI API Quickstart - Python example app
+# OpenAI API POC
 
-This repository contains the POC for OpenAI models.
+This repository contains the POC for the following OpenAI models.
 
 1. Text-davinci-003
 2. Text-babbage-001
